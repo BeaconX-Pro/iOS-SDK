@@ -314,7 +314,7 @@ Register for `mk_bxp_deviceDisconnectTypeNotification` notifications to monitor 
         return;
     }
     if ([type isEqualToString:@"02"]) {
-        [self showAlertWithMsg:@"Factry reset successfully!Please reconnect the device." title:@"Dismiss"];
+        [self showAlertWithMsg:@"Factory reset successfully!Please reconnect the device." title:@"Dismiss"];
         return;
     }
 }
